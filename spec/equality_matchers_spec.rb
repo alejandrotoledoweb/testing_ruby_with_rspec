@@ -31,6 +31,8 @@ RSpec.describe "equality matchers" do
       expect(c).to eql(d)
       expect(c).to eql(d)
 
+      # equal and be are the same
+
       expect(c).to equal(e)
       expect(c).to be(e)
 
