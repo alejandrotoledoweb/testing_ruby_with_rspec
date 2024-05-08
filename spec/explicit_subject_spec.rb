@@ -1,6 +1,6 @@
 RSpec.describe Hash do
 
-  # let(:subject) { {} }
+  # let(:subject) { {} } explicit value
   subject do
     {:a => 1, "b": 2, c: 3, "d" => 4}
   end
